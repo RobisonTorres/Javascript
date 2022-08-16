@@ -1,7 +1,3 @@
-var num = 3
-
-if (num % 2) {
-    console.log("The number is even.")}
-else {
-console.log("The number is odd.")}
+console.log("Keep it clean.")
+console.log()
 

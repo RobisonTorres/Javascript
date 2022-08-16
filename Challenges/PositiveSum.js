@@ -11,6 +11,7 @@ function positiveSum(arr) {
         }
     }
     return x;
+    // return arr.reduce((s,v) => v > 0 ? s + v : s, 0); - Clever.
 }
 
 console.log(positiveSum([1, -2, 3, 4, 5]))
