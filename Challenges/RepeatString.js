@@ -7,4 +7,4 @@ function repeatStr (n, s) {
     return s.repeat(n);
   }
 
-console.log(repeatStr(3, "Hello!"))
+console.log(repeatStr(3, "Hello!"))  // Outputs - Hello!Hello!Hello!

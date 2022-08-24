@@ -7,5 +7,5 @@ function boolToWord(bool) {
     return bool == true ? "Yes": "No";
 }
 
-console.log(boolToWord(true))
-console.log(boolToWord(false))
+console.log(boolToWord(true))  // Outputs - Yes
+console.log(boolToWord(false))  // Outputs - No

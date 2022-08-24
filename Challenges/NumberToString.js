@@ -7,5 +7,5 @@ function numberToString(num) {
     return String(num)
 }
 
-console.log(numberToString(123))
-console.log(numberToString(52))
+console.log(numberToString(123))  // Outputs - "123"
+console.log(numberToString(52))  // Outputs - "52"

@@ -7,5 +7,5 @@ function removeString(str) {
     return str.slice(1,-1);
 }
 
-console.log(removeString("house"))
-console.log(removeString("false"))
+console.log(removeString("house"))  // Outputs - ous
+console.log(removeString("false"))  // Outputs - als

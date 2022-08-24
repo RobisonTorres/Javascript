@@ -1,8 +1,3 @@
 console.log("Test Free - keep it clean.")
 console.log()
 
-function repeatStr (n, s) {
-    return s.repeat(n);
-  }
-
-console.log(repeatStr(3, "Hello!"))
