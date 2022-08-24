@@ -1,7 +1,9 @@
-console.log("Test Free - keep it clean.")
+console.log("From Code Wars")
 console.log()
 
 function repeatStr (n, s) {
+
+    // This function repeat a string (s) at (n) number of times.
     return s.repeat(n);
   }
 
