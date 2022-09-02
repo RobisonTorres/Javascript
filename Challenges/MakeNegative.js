@@ -3,7 +3,7 @@ console.log()
 
 function makeNegative(num) {
 
-    // This fuction return any given number to its negative form.
+    // This function return any given number to its negative form.
     return (num > 0) ? num * -1: num;
 }
 
