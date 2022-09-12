@@ -9,3 +9,6 @@ function removeString(str) {
 
 console.log(removeString("house"))  // Outputs - ous
 console.log(removeString("false"))  // Outputs - als
+
+var text = "world"
+console.log(text(0,1))
