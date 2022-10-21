@@ -6,18 +6,11 @@ function openOrSenior(data){
     /* This function categorizes a person as 'Senior' or 'Open'
     based on his/ her age and 'handicap'.*/
     let result = [];
-    var x = 0;
-    while (x < data.length) {
-        if (data[x][0] >= 55 && data[x][1] > 7){
-            result.push('Senior')
-            x += 1
-        } else {
-            result.push('Open')
-            x += 1
-        };
+    for (let i = 0; i < data.length; i++) {
+        (data[i][0] >= 55 && data[i][1] > 7) ? result.push('Senior') : result.push('Open')
     }
     return result
+    // return data.map(([age, handicap]) => (age > 54 && handicap > 7) ? 'Senior' : 'Open'); Clever.
 }
 
-console.log(openOrSenior([[18, 20], [45, 2], [61, 12], [37, 6],
-                         [21, 21], [78, 9]]))
+console.log(openOrSenior([[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]))
