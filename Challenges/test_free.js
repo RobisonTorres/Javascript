@@ -1,3 +1,3 @@
 console.log("Test Free - keep it clean.")
-console.log()
+console.log() // To start/restart Quokka press Ctrl K, Q.
 
