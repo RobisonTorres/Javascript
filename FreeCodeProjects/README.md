@@ -1,6 +1,6 @@
 # JavaScript Algorithms Projects - FCC
 
-This repository contains my personal solutions to these projects:
+This repository contains my personal solution to these projects:
 
    + Palindrome Checker<br />
    + Roman Numeral Converter<br />
