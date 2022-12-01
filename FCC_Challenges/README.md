@@ -1,8 +1,6 @@
-# JavaScript Algorithms and Data Structures Projects
+# JavaScript Algorithms Projects - FCC
 
-This repository contains projects that I have built to obtain certification in JavaScript Algorithms and Data Structures, from Free Code Camp. 
-
-Projects related to this certification:
+This repository contains my personal solutions to these projects:
 
    + Palindrome Checker<br />
    + Roman Numeral Converter<br />
