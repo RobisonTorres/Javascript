@@ -3,7 +3,7 @@ console.log()
 
 function nbYear(p0, percent, aug, p) {
     
-    // This function calculates how many years it necessary
+    // This function calculates how many years it's necessary
     // to reach a future population.
     years = 0
     while (p0 < p) {
