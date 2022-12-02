@@ -1,4 +1,4 @@
-console.log("From Free Code Camp.")
+console.log("JavaScript Algorithms and Data Structures - Projects.")
 console.log()
 
 function convertToRoman(num) {
@@ -27,4 +27,4 @@ function convertToRoman(num) {
     return r_num
 }
   
-console.log(convertToRoman(3306))
+console.log(convertToRoman(3306))  // Outputs - MMMCCCVI
