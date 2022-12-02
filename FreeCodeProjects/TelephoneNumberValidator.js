@@ -3,7 +3,7 @@ console.log()
 
 function telephoneCheck(str) {
     
-    /* This function return true if the passed string looks like a valid US phone number.*/
+    /* This function returns true if the passed string looks like a valid US phone number.*/
     let pattern1 = new RegExp(/^^[1]?[\s]?[(][0-9]{3}[)][-\s]?[0-9]{3}[-\s]?[0-9]{4}$|^^[1]?[\s]?[0-9]{3}[-\s]?[0-9]{3}[-\s]?[0-9]{4}$/)
     return pattern1.test(str)
 }
