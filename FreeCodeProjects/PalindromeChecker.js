@@ -3,7 +3,8 @@ console.log()
 
 function palindrome(str) {
 
-    /* Given a string, this function returns 'true' for a palindrome and 'false' otherwise. */
+    /* Given a string, this function returns 'true' for a 
+    palindrome and 'false' otherwise. */
     str = str.toLowerCase().match(/[a-zA-Z0-9]/gi)
     return str.join('') == str.reverse().join('')
 }
