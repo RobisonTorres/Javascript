@@ -19,3 +19,7 @@ function rot13(str) {
 }
 
 console.log(rot13("SERR PBQR PNZC"))  // Outputs - FREE CODE CAMP
+
+/* Project description:
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher
+*/

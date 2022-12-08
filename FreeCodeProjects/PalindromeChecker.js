@@ -11,5 +11,6 @@ function palindrome(str) {
   
 console.log(palindrome("1 eye for of eye 1."))  // Outputs - true.
 
-/* A palindrome is a word or sentence that's spelled the same 
-way both forward and backward, ignoring punctuation, case, and spacing.*/
+/* Project description:
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker
+*/

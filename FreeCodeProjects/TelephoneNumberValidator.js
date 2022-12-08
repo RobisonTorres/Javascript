@@ -9,3 +9,7 @@ function telephoneCheck(str) {
 }
 
 console.log(telephoneCheck("1 555-555-5555"))  // Outputs - true.
+
+/* Project description:
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator
+*/
