@@ -5,15 +5,13 @@ function diffArray(arr1, arr2) {
 
     /* Task - Compare two arrays and return a new array with any items only 
     found in one of the two given arrays, but not both.*/ 
-    // return l.filter(v => typeof v == "number") - Clever.
-    //return arr1.filter(v => !(v in arr2))
-    return arr1.filter(num => num in arr2)
-    
-    //const newArr = [];
-    //return newArr;
-  }
+    let diffArray1 = arr1.filter(item => !arr2.includes(item)).join('')
+    let diffArray2 = arr2.filter(item => !arr1.includes(item)).join('')
+    const newArr = [diffArray1, diffArray2].filter(i => i != '')
+    return newArr
+
+}
   
-console.log(diffArray([1, 2, 3, 4], [1, 2, 3, 5, 6]))
-arr1 = [1, 2, 3, 4]
-arr2 = [1, 2, 3, 5, 6]
-console.log(arr1.filter(num => num in arr2))
+console.log(diffArray(
+  ["andesite", "grass", "dirt", "dead shrub"],
+  ["andesite", "grass", "dirt", "dead shrub"]))
