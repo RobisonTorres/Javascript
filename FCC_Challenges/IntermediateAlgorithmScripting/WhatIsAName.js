@@ -5,21 +5,16 @@ function whatIsInAName(collection, source) {
 
     // This function...
     let newArr = []
+    let keys_collections = []
     for (let i = 0; i < collection.length; i++){
-        if ((Object.keys(source)).includes(Object.keys(collection[i]))) /*&
-            (Object.values(collection[i])).includes(Object.values(source)))*/
-            newArr.push(Object.values(collection[i]));
-        
+        newArr.push(collection[i]);
+        keys_collections.push(Object.keys(collection[i]))
     }
-    return newArr
+    return new Set(keys_collections.flat(1))
 }
 
-console.log(whatIsInAName([{ first: "Romeo", last: "Montague" }, 
+console.log(whatIsInAName(
+            [{ first: "Romeo", last: "Montague" }, 
             { first: "Mercutio", last: 'null' }, 
             { first: "Tybalt", last: "Capulet" }], 
-            { last: "Capulet" }));
-
-let names = { first: "Romeo", last: "Capulet" }
-let invite = { last: "Capulet" }
-
-console.log(Object.values(names).filter(num => Object.values(invite).includes(num)))
+            { first: "Tybalt", last: "Capulet"}));
