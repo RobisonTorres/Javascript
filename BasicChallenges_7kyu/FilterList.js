@@ -14,4 +14,4 @@ function filter_list(l) {
     // return l.filter(v => typeof v == "number") - Clever.
 }
 
-console.log(filter_list([1,2,'a','b']))
+console.log(filter_list([1,2,'a','b']))  // Outputs - [1, 2]

@@ -12,4 +12,4 @@ function getSum(a, b) {
     return x
 }
 
-console.log(getSum(-1, 2))
+console.log(getSum(-1, 2))  // Outputs - 2

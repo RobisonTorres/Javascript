@@ -10,4 +10,4 @@ function sumAll(arr) {
     return ((max - min + 1 )/2) * (max + min)
 }
 
-console.log(sumAll([4,1]))
+console.log(sumAll([4,1]))  // Outputs - 10

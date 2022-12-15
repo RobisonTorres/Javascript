@@ -14,4 +14,5 @@ function diffArray(arr1, arr2) {
   
 console.log(diffArray(
             ["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"],
-            ["diorite", "andesite", "grass", "dirt", "dead shrub"]))  // Outputs - ['pink wool']
+            ["diorite", "andesite", "grass", "dirt", "dead shrub"]))
+// Outputs - ['pink wool']
