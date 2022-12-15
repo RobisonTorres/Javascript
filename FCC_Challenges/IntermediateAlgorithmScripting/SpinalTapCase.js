@@ -3,8 +3,7 @@ console.log()
 
 function spinalCase(str) {
     
-    /* Task - Convert a string to spinal case. 
-    Spinal case is all-lowercase-words-joined-by-dashes. */
+    // Task - Convert a string to spinal case. 
     str = str.replace(/([a-z])([A-Z])/g, '$1 $2')  // separate lower characters from upper ones.
     str = str.replace(/[\W_/]+/g, '-')  // replace all special characters to "-".
     str = str.toLowerCase()
