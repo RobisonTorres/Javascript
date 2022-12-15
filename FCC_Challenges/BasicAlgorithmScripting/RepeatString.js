@@ -10,7 +10,7 @@ function repeatStringNumTimes(str, num) {
         num--;
     }
     return result;
-    // return str.repeat(num)
+    // return new Array(num + 1).join(str);
 }
   
-console.log(repeatStringNumTimes("abc", 3));
+console.log(repeatStringNumTimes("abc", 3));  // Outputs - abcabcabc
