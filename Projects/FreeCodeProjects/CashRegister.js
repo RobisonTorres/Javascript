@@ -49,7 +49,3 @@ console.log(checkCashRegister(3.26, 100,
     [ 'PENNY', 0.04 ]]
 
 }*/                    
-
-/* Project description:
-https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register
-*/
