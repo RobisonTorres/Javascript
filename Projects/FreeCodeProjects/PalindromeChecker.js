@@ -10,7 +10,3 @@ function palindrome(str) {
 }
   
 console.log(palindrome("1 eye for of eye 1."))  // Outputs - true.
-
-/* Project description:
-https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker
-*/
